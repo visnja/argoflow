@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/visnja/argoflow.git
-    targetRevision: 123456789012/cluster.master-cat.com
+    targetRevision: HEAD
     path: distribution/knative
     kustomize:
       version: v4.0.5
